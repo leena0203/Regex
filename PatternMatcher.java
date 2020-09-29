@@ -7,9 +7,9 @@ public class PatternMatcher {
 	public static void main(String[] args) {
 		PatternMatcher patternMatcher = new PatternMatcher();
 		String samplel = "Leena";
-		System.out.println(samplel+"------->"+patternMatcher.validateInput(samplel));
-		String samplel1 = "eela23";
-		System.out.println(samplel1+"------->"+patternMatcher.validateInput(samplel1));
+		System.out.println("First Name of User:"+samplel+"------->"+patternMatcher.validateInput(samplel));
+		String samplel1 = "Sarode";
+		System.out.println("Last Name of User:"+samplel1+"------->"+patternMatcher.validateInput(samplel1));
 	}
 	
 	      
